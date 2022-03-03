@@ -1,0 +1,54 @@
+\chapter{Flux}
+
+\section{Introduction}
+The metabolic flux can be defined as the rate at which material is processed through a metabolic pathway.
+Along with intracellular metabolite concentrations, fluxes define the minimal information needed for describing metabolism and cell physiology.
+Metabolic fluxes and their changes in response to various types of genetic and environmental perturbations are critical for the elucidation of the control of metabolic flux.
+
+	\subsection{Feasibility and observability}
+	A metabolic pathway is defined to be any sequence of feasible and observable biochemical reaction steps connecting a specified set of input and output metabolites.
+	If the fluxes of reaction sequences cannot be determined independently, their inclusion provides no additional information.
+	In many ways, it is preferable to lump thes reaction sequences together in fewer pathways whose overall fluxes can be experimentally observed.
+
+\section{Metabolic flux analysis}
+Metabolic flux analysis or MFA has been used over the past three decades to quantify intracellular metabolic fluxes in native and engineered biological systems.
+Through MFA changes in metabolic pathway fluxes that result from genetic and or environmental interventions are quantified.
+This information provides insights into the regulation of metabolic pathways and may suggest new targets for further metabolic engineering of the strains.
+
+	\subsection{Flux analysis at metabolic steady-state: MFA}
+	The first step in an MFA is to express the biochemical network model as a stoichiometric matrix in which rows represent balanced intracellular metabolites and columns represent metabolic fluxes in the model.
+	The stoichiometric model includes a biomass reaction that describes the drain of precursor metabolites needed for cell growth, which is constructed based on the measured biomass composition.
+	By assuming metabolic pseudo steady-state for intracellular metabolites, metabolic fluxes $\vec{v}$ are constrained by the stoichiometry matrix $S$:
+
+	$$s\times\vec{v} = \vec{0}$$
+
+	To estimate metabolic fluxes, the stoichiometric constraints are complemented with measured external metabolic rates, such as growth rate, substrate uptake and product accumulation rates, described by matrix $R$.
+	This adds the constraint:
+
+	$$R\times\vec{v}=\vec{r}$$
+
+	The combined system of equation is solved by least squares regression:
+
+	$$\min SSR = \sum\frac{(r-r_m)^2}{\sigma_r^2}$$
+
+	With constraints $R\times\vec{v}=\vec{r}$ and $S\times v = \vec{0}$.
+	MFA can estimate metabolic fluxes in systems fully or over-determined: all the necessary external rate measurement are known or they are redundant.
+	This method is easy to apply and relies on relatively robust measurements of extracellular metabolites.
+	However for many biological systems the number of constraints is often insufficient to observe all important metabolic pathways.
+	To make the system fully observable additional assumptions are needed.
+	For example specific pahthways that are assumed to carry little or no flux or cofactor balances are left out.
+
+	\subsection{Flux balance analysis}
+	Flux balance analysis or FBA can be applyed to quantify fluxes in underdetermined systems.
+	In addition to applying constraints from measured extracellular rates, inequality constraints like upper and lower bounds on fluxes are used and an assumed biological objective is imposed on the model.
+	FBA returns a large solution space consisting of many flux distributions that can all maximize the assumed cellular objective.
+
+	\subsection{$^{13}$C-based metabolic flux analysis}
+	$^{13}$C-based metabolic flux analysis os $^{13}$C-MFA is a more advanced technique for estimating metabolic fluxes in systems at metabolic steady state.
+	$^{13}$C-labelled tracers, combined with isotopomer balancing, metabolite balancing and isotopic labelling measurement through techniques as NMR, mass spectrometry and tandem mass spectrometry are used to estimate fluxes.
+	Cells are cultured for an extended period of time in the presence of a specifically labelled $^{13}$C-tracer which results in the incorporation of the tracer atoms into metabolic intermediates and products.
+	The constraints
+
+	$$f_{isotopomer}(\vec{x},\vec{v}) = \vec{0}$$
+
+	Is introduced to account for isotopomer balancing.
