@@ -1,0 +1,66 @@
+\section{The human microbiome}
+1 to 10 times bigger than the human cells in terms of number ... (quantities quite irrelevant).
+Study of the microbiome can be used to do diagnosis. 
+
+study of uncultured microorganism, intersted in the whole collection of the microbiome, seen as an entity. THe main tool of metagenomics is high throughput sequencing.
+
+slide: GC content on x, average coverage, skin sample results. Align each contig with each dataset. In red really abundant and with high concentration of GC. Because of sequencing problems, ablungated shape of the greed macchia and yellow (this happens with below 35\% GC content). It is possible to find new type of genomes useful to study.
+
+
+\subsection{16S RNA for microbiome analysis}
+Through PCR it is amplified a single 16S RNA gene.  Some regions are variable and others are fixed, find variants to identify specific bacteria. Sequencing of an amplicon of a single gene, use the conserved regions to sequence the variant regions. Map the barcode of the bacteria to give a name. Bacterial communities are usually made with a dominant bacterium type. 
+
+%add image
+
+16S is present in all the bacteria, and ribosomes are probably the most conserved proteins in cells. 23S is probably too conserved, 16S represents a good balance. 
+16S ribosome protein is probably oene of the most important phylogenetic structures of the prokaryotic domain. 
+
+Differences between 16S rRNAs are placed in highly variable regions. The 530 loop structure changes
+
+%add image
+
+
+%add image some regions are conserved and other variables. Usually regions to see which are variable are made only by a few hundreds of nucleotides. 
+
+Illumina is not used as reads are shorter the the necessary length. For each different problem it has to be chosen the best sequencing machine for your problem. 
+When 454 ws popular 3k reads was ok. Machines in the center are ideal.
+
+
+\subsection{in silico primer validation testing}
+Tools to do that
+
+\begin{itemize}
+\item \textbf{Silva}: Use a set of primeters.
+\end{itemize}
+
+Universal primers do not exist for all possible variants.
+
+
+% (...)
+
+V1 to V3 (V1, V2, V3)
+
+How to analize these data?
+We don't need huge amount of outputs. At the end of the sequencing amplicons are obtaines. Trim arcodes and group them. Each of the OTU can be represented in a phyogenetic tree.
+
+The sequencing is performed on the input genes, not directly on RNA. ...
+
+\subsection{Multiple sequence alignment}
+in one versus all minimize the number of gaps. Sequence alignments. To choose representative, it is possible to select the sequence which minimizes the difference with the others or htat is composed by the most conserved nucleotides. All sequencing in OTU_1 are more than 97\% with respect to the OTU_1.
+
+OTU is a froup of very similar 16 S sequences, it is assued to belong to the same organism. It is possible to use the single linkage clusstering. a sequence is added to an OTU if it is similar ot any sequence already in that OTU. Single linkage idea. the guy on the left corner belongs to that cluser. clustering algorithm. You can also use the Furthest neighbor clustering if the sequence is similar to all the other sequences already in that OTU. THere s not always the best solution, in the second case that guy could be evolving alone
+
+The easiest clustering tecniques have their formula. 
+
+
+% \subsection{Unsupervised clustering}
+it finds a structure in the data without any expert information about the data. 
+
+OTU clustering cna also mae node  relative without low distances. In the other case some nodes are not obviously related. If the clustering is too stringes, sequencing error will result in new OTUs. mULTIPLE COPIES OF THE 16s GENE IN THE SAME ORGANISM CAN DIFFER FOR MORE THAN 3\%. It is difficult to know a priori the genome speicific 16S copy number, you cannot normalize by 16S copy number. Sequencing 16S RNA is better than sequencing an entire genome. YOu have to not overestimate the diversity of your sample. 
+
+Many different clustering algorithms are used 
+
+
+% \subsection{Supervised clustering}
+
+assign taxonomy to bacterias, several confidence predictions are neede to understand the output. 
