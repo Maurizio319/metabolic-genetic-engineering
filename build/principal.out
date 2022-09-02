@@ -1,8 +1,22 @@
-\BOOKMARK [0][-]{chapter.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{}% 1
-\BOOKMARK [0][-]{chapter.2}{\376\377\000F\000l\000u\000x}{}% 2
-\BOOKMARK [1][-]{section.2.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.2.1.1}{\376\377\000F\000e\000a\000s\000i\000b\000i\000l\000i\000t\000y\000\040\000a\000n\000d\000\040\000o\000b\000s\000e\000r\000v\000a\000b\000i\000l\000i\000t\000y}{section.2.1}% 4
-\BOOKMARK [1][-]{section.2.2}{\376\377\000M\000e\000t\000a\000b\000o\000l\000i\000c\000\040\000f\000l\000u\000x\000\040\000a\000n\000a\000l\000y\000s\000i\000s}{chapter.2}% 5
-\BOOKMARK [2][-]{subsection.2.2.1}{\376\377\000F\000l\000u\000x\000\040\000a\000n\000a\000l\000y\000s\000i\000s\000\040\000a\000t\000\040\000m\000e\000t\000a\000b\000o\000l\000i\000c\000\040\000s\000t\000e\000a\000d\000y\000-\000s\000t\000a\000t\000e\000:\000\040\000M\000F\000A}{section.2.2}% 6
-\BOOKMARK [2][-]{subsection.2.2.2}{\376\377\000F\000l\000u\000x\000\040\000b\000a\000l\000a\000n\000c\000e\000\040\000a\000n\000a\000l\000y\000s\000i\000s}{section.2.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.3}{\376\377\0001\0003\000C\000-\000b\000a\000s\000e\000d\000\040\000m\000e\000t\000a\000b\000o\000l\000i\000c\000\040\000f\000l\000u\000x\000\040\000a\000n\000a\000l\000y\000s\000i\000s}{section.2.2}% 8
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Flux}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{Feasibility and observability}{section.2.1}% 4
+\BOOKMARK [1][-]{section.2.2}{Metabolic flux analysis}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.1}{Flux analysis at metabolic steady-state: MFA}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.2}{Flux balance analysis}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.3}{13C-based metabolic flux analysis}{section.2.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Noise}{}% 9
+\BOOKMARK [1][-]{section.3.1}{Regulation of noise in the expression of a single gene}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{Adaptive response of gene network to environmental changes by fitness-induced attractor selection}{chapter.3}% 11
+\BOOKMARK [0][-]{chapter.4}{LTEE}{}% 12
+\BOOKMARK [1][-]{section.4.1}{Long-term evolution experiment}{chapter.4}% 13
+\BOOKMARK [2][-]{subsection.4.1.1}{Historical contingency and the evolution of a key innovation in an experimental population of E.coli}{section.4.1}% 14
+\BOOKMARK [2][-]{subsection.4.1.2}{Genomic analysis of a key innovation in an experimental E. coli population}{section.4.1}% 15
+\BOOKMARK [0][-]{chapter.5}{CFPS and MAGE}{}% 16
+\BOOKMARK [1][-]{section.5.1}{Cell-free protein synthesis}{chapter.5}% 17
+\BOOKMARK [2][-]{subsection.5.1.1}{Cell extract}{section.5.1}% 18
+\BOOKMARK [2][-]{subsection.5.1.2}{PURE system}{section.5.1}% 19
+\BOOKMARK [1][-]{section.5.2}{Multiplex Automated Genome Engineering}{chapter.5}% 20
+\BOOKMARK [2][-]{subsection.5.2.1}{MAGE automation}{section.5.2}% 21
+\BOOKMARK [1][-]{section.5.3}{CFPS and MAGE}{chapter.5}% 22
